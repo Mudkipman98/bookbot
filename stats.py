@@ -8,4 +8,7 @@ def char_count_in_book(book_text):
     for i in book_text:
         characters_in_book[i] = characters_in_book[i] + 1
     return characters_in_book
+
+def all_chars_in_book(chars_dict):
+    sorted_dict = chars_dict.sort()
     
