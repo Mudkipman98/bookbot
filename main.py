@@ -29,7 +29,7 @@ def main():
         key_list = list(key)
 
         if key_list[0].isalpha() != True:
-            sorted_chars_in_book = sorted_chars_in_book.pop(sorted_chars_in_book[i])
+            sorted_chars_in_book = sorted_chars_in_book.pop(sorted_chars_in_book[i]) #something is wrong here.  Need to finish figuring out why this is not removing the nonalphas.  Or maybe... I should start a new list of dicts that ARE alphas and put those in.
 
 
     print(sorted_chars_in_book)
