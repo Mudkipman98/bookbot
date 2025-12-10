@@ -20,3 +20,5 @@ def all_chars_in_book(chars_dict):
 
     return sorted_list_of_char_counts
     
+def sort_on(value):
+    return value["num"]
