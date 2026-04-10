@@ -1,8 +1,6 @@
 import sys
 from stats import word_count, char_occurrence, sorted_characters
 
-#?"books/frankenstein.txt" #this is just the path, not an actual useable variable, it's just there for the get_book_text function to use
-
 def get_book_text(path):
     with open(path) as b:
         return b.read()
