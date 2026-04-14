@@ -28,4 +28,4 @@ def main():
             continue
         print(f"{item['char']}" + ": " + f"{item['num']}")
 
-main()
+main() #comment haha
